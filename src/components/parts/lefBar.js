@@ -50,7 +50,7 @@ const LeftBar = () => {
 
           {/* instagram  */}
           <Link
-            href="#"
+            href="https://www.instagram.com/henockdjo/"
             isExternal
             _hover={{
               textDecoration: "none",
@@ -64,8 +64,9 @@ const LeftBar = () => {
               style={{ color: theme.lightestSlate }}
             />
           </Link>
+          {/* twitter  */}
           <Link
-            href="#"
+            href="https://twitter.com/HenocKodjo"
             isExternal
             _hover={{
               textDecoration: "none",
@@ -84,7 +85,7 @@ const LeftBar = () => {
 
           {/* linkedin  */}
           <Link
-            href="#"
+            href="https://www.linkedin.com/in/kodjohenoc/"
             isExternal
             _hover={{
               textDecoration: "none",
@@ -101,7 +102,7 @@ const LeftBar = () => {
 
           {/* codePen  */}
           <Link
-            href="#"
+            href="https://codepen.io/henoceli3"
             isExternal
             _hover={{
               textDecoration: "none",

@@ -29,13 +29,12 @@ const Navigation = () => {
         </Center>
 
         {/* button  */}
-        <Center
-          h={{ base: "20%", md: "100%" }}
-          w={{ base: "100%", md: "20%" }}
-        >
+        <Center h={{ base: "20%", md: "100%" }} w={{ base: "100%", md: "20%" }}>
           <Link
             h={{ base: "40%", md: "60%" }}
             w={{ base: "50%", md: "90%" }}
+            href="CV_2023-05-18_TAMEGNON ELISEE HENOC_KODJO.pdf"
+            // download={"CV_2023-05-18_TAMEGNON ELISEE HENOC_KODJO"}
             borderRadius={"5px"}
             borderWidth={"1px"}
             borderColor={theme.green}
@@ -51,7 +50,7 @@ const Navigation = () => {
               transform: "translate(-4px, -4px)",
             }}
           >
-            Resume
+            CV
           </Link>
         </Center>
       </Center>

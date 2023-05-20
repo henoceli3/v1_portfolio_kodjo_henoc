@@ -12,7 +12,7 @@ const FirstMessage = () => {
             fontFamily={theme.fontSans}
             fontSize={"smaller"}
           >
-            Hi, my name is
+            Salut, Je mon nom est
           </Text>
           <Heading
             color={theme.lightestSlate}
@@ -20,14 +20,15 @@ const FirstMessage = () => {
           >
             Kodjo Henoc.
           </Heading>
-          <Heading color={theme.lightSlate}>Web developer.</Heading>
+          <Heading color={theme.lightSlate} textTransform={'capitalize'}>développeur web.</Heading>
           <Text
             color={theme.darkSlate}
             textAlign={"justify"}
             w={{ base: "90%", md: "50%" }}
           >
-            I am a junior developer passionate about the web. I love designing a
-            beautiful interface backed by a solid back-end
+            {
+              "Je suis un développeur junior passionné par le web. J'adore concevoir de belles interfaces adossées à un backend solide quand il le faut."
+            }
           </Text>
           <Link
             h={"2.5em"}
@@ -50,7 +51,7 @@ const FirstMessage = () => {
             fontFamily={theme.fontSans}
             fontSize={"smaller"}
           >
-            Learn more
+            En savoir Plus
           </Link>
         </Flex>
       </Center>

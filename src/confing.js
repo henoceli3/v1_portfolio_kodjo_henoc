@@ -3,7 +3,7 @@ const navItems = [
     id: 1,
     range: "01.",
     item: "About",
-    link: "#",
+    link: "#about",
   },
   {
     id: 2,
@@ -24,5 +24,6 @@ const navItems = [
     link: "#",
   },
 ];
+
 
 export { navItems};
