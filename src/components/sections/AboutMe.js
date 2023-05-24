@@ -1,12 +1,15 @@
 import theme from "@/styles/root";
 import { Box, Center, Flex, Heading, Text } from "@chakra-ui/react";
-import React from "react";
+import React, { useState } from "react";
 import SectionHeading from "../sectionHeading";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretSquareRight } from "@fortawesome/free-regular-svg-icons";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 
 const AboutMe = () => {
+  const HeadingDetails = {
+    number: "01.",
+    title: "Moi",
+  };
   return (
     <>
       <Center
@@ -17,7 +20,7 @@ const AboutMe = () => {
         id="about"
         // bg={theme.green}
       >
-        <SectionHeading />
+        <SectionHeading headingItem={HeadingDetails} />
         <Flex
           w={{ base: "95%", md: "100%" }}
           h={{ base: "auto", md: "90vh" }}

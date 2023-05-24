@@ -25,5 +25,94 @@ const navItems = [
   },
 ];
 
+const ExperienceListe = [
+  {
+    id: 1,
+    Enterprise: "SOGEL AFRIK",
+    position: "Dévellopeur FullStack",
+    date: "AVRIL 2023 - maintenant",
+    works: [
+      {
+        id: 1,
+        description:
+          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
+      },
+      {
+        id: 2,
+        description:
+          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
+      },
+      {
+        id: 3,
+        description:
+          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
+      },
+      {
+        id: 4,
+        description:
+          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
+      },
+    ],
+    link: "#",
+  },
+  {
+    id: 2,
+    Enterprise: "Tech Maker",
+    position: "Dévellopeur FullStack",
+    date: "AVRIL 2023 - maintenant",
+    works: [
+      {
+        id: 1,
+        description:
+          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
+      },
+      {
+        id: 2,
+        description:
+          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
+      },
+      {
+        id: 3,
+        description:
+          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
+      },
+      {
+        id: 4,
+        description:
+          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
+      },
+    ],
+    link: "#",
+  },
+  {
+    id: 2,
+    Enterprise: "Tech Maker",
+    position: "Dévellopeur FullStack",
+    date: "AVRIL 2023 - maintenant",
+    works: [
+      {
+        id: 1,
+        description:
+          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
+      },
+      {
+        id: 2,
+        description:
+          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
+      },
+      {
+        id: 3,
+        description:
+          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
+      },
+      {
+        id: 4,
+        description:
+          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
+      },
+    ],
+    link: "#",
+  },
+];
 
-export { navItems};
+export { navItems, ExperienceListe };

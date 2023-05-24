@@ -2,7 +2,7 @@ import theme from "@/styles/root";
 import { Box, Center, Text } from "@chakra-ui/react";
 import React from "react";
 
-const SectionHeading = () => {
+const SectionHeading = ({headingItem}) => {
   return (
     <>
       <Center
@@ -17,10 +17,10 @@ const SectionHeading = () => {
           fontWeight={"bold"}
           fontFamily={theme.fontSans}
         >
-          01.
+          {headingItem.number}
         </Text>
         <Text color={theme.lightestSlate} fontWeight={"bold"}>
-          A propos de moi
+          {headingItem.title}
         </Text>
         <Box w={"20%"} h={"0.1px"} bg={theme.lightestSlate} ml={"2"}></Box>
       </Center>

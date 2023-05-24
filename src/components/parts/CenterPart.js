@@ -2,6 +2,7 @@ import { Box, Center, Text } from "@chakra-ui/react";
 import React from "react";
 import FirstMessage from "../sections/FirstMessage";
 import AboutMe from "../sections/AboutMe";
+import Experience from "../sections/Experience";
 
 const CenterPart = () => {
   return (
@@ -15,6 +16,7 @@ const CenterPart = () => {
       >
         <FirstMessage />
         <AboutMe />
+        <Experience />
       </Center>
     </>
   );
