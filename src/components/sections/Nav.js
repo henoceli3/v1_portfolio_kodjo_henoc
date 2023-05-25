@@ -33,7 +33,7 @@ const Navigation = () => {
           <Link
             h={{ base: "40%", md: "60%" }}
             w={{ base: "50%", md: "90%" }}
-            href="CV_2023-05-18_TAMEGNON ELISEE HENOC_KODJO.pdf"
+            href="https://cvdesignr.com/p/64285ea55890e"
             // download={"CV_2023-05-18_TAMEGNON ELISEE HENOC_KODJO"}
             borderRadius={"5px"}
             borderWidth={"1px"}
