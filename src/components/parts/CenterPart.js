@@ -3,6 +3,7 @@ import React from "react";
 import FirstMessage from "../sections/FirstMessage";
 import AboutMe from "../sections/AboutMe";
 import Experience from "../sections/Experience";
+import MyWorks from "../sections/MyWorks";
 
 const CenterPart = () => {
   return (
@@ -17,6 +18,7 @@ const CenterPart = () => {
         <FirstMessage />
         <AboutMe />
         <Experience />
+        <MyWorks />
       </Center>
     </>
   );

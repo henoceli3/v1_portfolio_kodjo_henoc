@@ -115,4 +115,41 @@ const ExperienceListe = [
   },
 ];
 
-export { navItems, ExperienceListe };
+const FlagshipProject = [
+  {
+    id: 1,
+    imageLink: "./projectPreview/1.jpg",
+    type: "Projet Vedette",
+    name: "Pierre Papier Ciseaux",
+    description:
+      "Reprehenderit quis eu id enim. Occaecat sit fugiat commodo aliquip non excepteur velit non id nisi dolor irure elit consequat. Enim esse aliquip ea cillum do ut nostrud irure proident pariatur irure minim nisi.",
+    language: ["HTML5", "CSS3", "JAVASCRIPTE"],
+    liveLink: "https://henoceli3.github.io/rock-paper-scissors-master/",
+    reposisterieLink: "https://github.com/henoceli3/rock-paper-scissors-master",
+  },
+  {
+    id: 2,
+    imageLink: "./projectPreview/2.jpg",
+    type: "Projet Vedette",
+    name: "Countries Rest App",
+    description:
+      "Reprehenderit quis eu id enim. Occaecat sit fugiat commodo aliquip non excepteur velit non id nisi dolor irure elit consequat. Enim esse aliquip ea cillum do ut nostrud irure proident pariatur irure minim nisi.",
+    language: ["HTML5", "CSS3", "JAVASCRIPTE", "React", "Rest Countrie Api"],
+    liveLink: "https://henoceli3.github.io/rest-countries-api/",
+    reposisterieLink: "https://github.com/henoceli3/rest-countries-api",
+  },
+  {
+    id: 3,
+    imageLink: "./projectPreview/3.jpg",
+    type: "Projet Vedette",
+    name: "Sneakers",
+    description:
+      "Reprehenderit quis eu id enim. Occaecat sit fugiat commodo aliquip non excepteur velit non id nisi dolor irure elit consequat. Enim esse aliquip ea cillum do ut nostrud irure proident pariatur irure minim nisi.",
+    language: ["HTML5", "CSS3", "JAVASCRIPTE"],
+    liveLink: "https://henoceli3.github.io/ecommerce-product-page-main/",
+    reposisterieLink:
+      "https://github.com/henoceli3/ecommerce-product-page-main",
+  },
+];
+
+export { navItems, ExperienceListe, FlagshipProject };

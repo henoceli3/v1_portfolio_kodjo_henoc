@@ -62,7 +62,7 @@ body {
   font-size: var(--fz-xl);
   line-height: 1.3;
   color: var(--lightest-slate);
-  /* color: #ffffff00; */
+  /* color: #64ffdb29; */
 }
 
 a {
