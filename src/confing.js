@@ -152,4 +152,64 @@ const FlagshipProject = [
   },
 ];
 
-export { navItems, ExperienceListe, FlagshipProject };
+const OtherWorksList = [
+  {
+    id: 1,
+    externalLink: "https://henoceli3.github.io/results-summary-component-main/",
+    githubLink: "https://github.com/henoceli3/results-summary-component-main",
+    title: "Summary Components Main",
+    description:
+      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
+    langagues: ["REACT", "HTML5", "CSS3"],
+  },
+  {
+    id: 2,
+    externalLink:
+      "https://henoceli3.github.io/ok-intro-section-with-dropdown-navigation-main/",
+    githubLink:
+      "https://github.com/henoceli3/ok-intro-section-with-dropdown-navigation-main",
+    title: "Main Page",
+    description:
+      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
+    langagues: ["HTML5", "CSS3", "JAVASCRIPTE"],
+  },
+  {
+    id: 3,
+    externalLink: "",
+    githubLink: "https://github.com/henoceli3/node-4kBoutik",
+    title: "4Kboutique",
+    description:
+      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
+    langagues: ["NODE.JS", "EXPRESSE", "JAVASCRIPTE"],
+  },
+  {
+    id: 4,
+    externalLink: "",
+    githubLink: "https://github.com/henoceli3/node-pokemon-api",
+    title: "Pokemon Api",
+    description:
+      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
+    langagues: ["NODE.JS", "EXPRESSE", "JAVASCRIPTE"],
+  },
+  {
+    id: 5,
+    externalLink: "https://henoceli3.github.io/results-summary-component-main/",
+    githubLink: "https://github.com/henoceli3/results-summary-component-main",
+    title: "Pokemon App",
+    description:
+      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
+    langagues: ["ANGULAR", "HTML5", "CSS3", "BOOSTRAP", "TYPESCRIPTE"],
+  },
+  {
+    id: 6,
+    externalLink: "https://henoceli3.github.io/results-summary-component-main/",
+    githubLink: "https://github.com/henoceli3/results-summary-component-main",
+    title: "POKEMON APP",
+    description:
+      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
+    langagues: ["ANGULAR", "HTML5", "CSS3", "BOOSTRAP", "TYPESCRIPTE"],
+  },
+];
+let OtheProjectLength = OtherWorksList.length;
+
+export { navItems, ExperienceListe, FlagshipProject, OtherWorksList, OtheProjectLength };
