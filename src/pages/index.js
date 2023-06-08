@@ -21,7 +21,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const appStoreColor = "red";
-  const [isLargerThan768] = useMediaQuery("(min-width: 800px)");
+  const [isLargerThan1280] = useMediaQuery("(min-width: 1280px)");
 
   return (
     <>
@@ -36,7 +36,7 @@ export default function Home() {
         <Center
           w={"100%"}
           h={"8vh"}
-          position={{ base: "fixed", md: "relative" }}
+          position={{ base: "fixed", xl: "relative" }}
           bg={theme.navy}
           zIndex={"banner"}
         >
@@ -60,7 +60,7 @@ export default function Home() {
             </Link>
 
             {/* le button du menu  */}
-            {isLargerThan768 ? <Navigation /> : <MobileMenu />}
+            {isLargerThan1280 ? <Navigation /> : <MobileMenu />}
           </Flex>
         </Center>
 

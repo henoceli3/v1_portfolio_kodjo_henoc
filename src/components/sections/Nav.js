@@ -9,19 +9,19 @@ const Navigation = () => {
     <>
       {/* la navigation  et buutton */}
       <Center
-        w={{ base: "100%", md: "40em" }}
-        h={{ base: "100%", md: "100%" }}
-        flexDirection={{ base: "column", md: "row" }}
+        w={{ base: "100%", xl: "40em" }}
+        h={{ base: "100%", xl: "100%" }}
+        flexDirection={{ base: "column", xl: "row" }}
         fontFamily={theme.fontSans}
         fontSize={theme.fzXxs}
       >
         {/* la navigation */}
         <Center
-          h={{ base: "80%", md: "100%" }}
-          w={{ base: "100%", md: "80%" }}
+          h={{ base: "80%", xl: "100%" }}
+          w={{ base: "100%", xl: "80%" }}
           fontWeight={"bold"}
           justifyContent={"space-between"}
-          flexDirection={{ base: "column", md: "row" }}
+          flexDirection={{ base: "column", xl: "row" }}
         >
           {navItems.map((item) => (
             <NavItemsTemplate key={item.id} elements={item} />
@@ -29,10 +29,10 @@ const Navigation = () => {
         </Center>
 
         {/* button  */}
-        <Center h={{ base: "20%", md: "100%" }} w={{ base: "100%", md: "20%" }}>
+        <Center h={{ base: "20%", xl: "100%" }} w={{ base: "100%", xl: "20%" }}>
           <Link
-            h={{ base: "40%", md: "60%" }}
-            w={{ base: "50%", md: "90%" }}
+            h={{ base: "40%", xl: "60%" }}
+            w={{ base: "50%", xl: "90%" }}
             href="https://cvdesignr.com/p/64285ea55890e"
             // download={"CV_2023-05-18_TAMEGNON ELISEE HENOC_KODJO"}
             borderRadius={"5px"}

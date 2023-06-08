@@ -16,15 +16,17 @@ const FirstMessage = () => {
           </Text>
           <Heading
             color={theme.lightestSlate}
-            fontSize={{ base: "", md: "4em" }}
+            fontSize={{ base: "", xl: "4em" }}
           >
             Kodjo Henoc.
           </Heading>
-          <Heading color={theme.lightSlate} textTransform={'capitalize'}>développeur web.</Heading>
+          <Heading color={theme.lightSlate} textTransform={"capitalize"}>
+            développeur web.
+          </Heading>
           <Text
             color={theme.darkSlate}
             textAlign={"justify"}
-            w={{ base: "90%", md: "50%" }}
+            w={{ base: "90%", xl: "50%" }}
           >
             {
               "Je suis un développeur junior passionné par le web. J'adore concevoir de belles interfaces adossées à un backend solide quand il le faut."

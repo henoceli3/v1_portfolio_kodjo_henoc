@@ -2,14 +2,14 @@ import theme from "@/styles/root";
 import { Box, Center, Text } from "@chakra-ui/react";
 import React from "react";
 
-const SectionHeading = ({headingItem}) => {
+const SectionHeading = ({ headingItem }) => {
   return (
     <>
       <Center
-        w={{ base: "95%", md: "100%" }}
+        w={{ base: "95%", xl: "100%" }}
         justifyContent={"start"}
         flexDirection={"row"}
-        mb={{ base: "2em", md: "0em" }}
+        mb={{ base: "2em", xl: "0em" }}
       >
         <Text
           fontSize={"1.2em"}

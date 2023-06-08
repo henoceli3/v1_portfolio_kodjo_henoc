@@ -23,24 +23,24 @@ const Experience = () => {
     <>
       <Center
         w={"100%"}
-        h={{ base: "auto", md: "100vh" }}
-        justifyContent={{ base: "center", md: "end" }}
+        h={{ base: "auto", xl: "100vh" }}
+        justifyContent={{ base: "center", xl: "end" }}
       >
-        <Box w={{ base: "95%", md: "80%" }} h={{ base: "auto", md: "90%" }}>
+        <Box w={{ base: "95%", xl: "80%" }} h={{ base: "auto", xl: "90%" }}>
           <SectionHeading headingItem={HeadingDetails} />
           <Tabs
             display={"flex"}
-            flexDirection={{ base: "column", md: "row" }}
+            flexDirection={{ base: "column", xl: "row" }}
             color={theme.lightSlate}
             w={"100%"}
-            h={{ base: "100vh", md: "90%" }}
+            h={{ base: "100vh", xl: "90%" }}
             variant={"unstyled"}
           >
             <TabList
               display={"flex"}
-              flexDirection={{ base: "row", md: "column" }}
-              w={{ base: "100%", md: "20%" }}
-              h={{ base: "10%", md: "100%" }}
+              flexDirection={{ base: "row", xl: "column" }}
+              w={{ base: "100%", xl: "20%" }}
+              h={{ base: "10%", xl: "100%" }}
               fontFamily={theme.fontSans}
             >
               {ExperienceListe.map((exp) => (
@@ -49,8 +49,8 @@ const Experience = () => {
             </TabList>
 
             <TabPanels
-              w={{ base: "100%", md: "80%" }}
-              h={{ base: "90%", md: "100%" }}
+              w={{ base: "100%", xl: "80%" }}
+              h={{ base: "90%", xl: "100%" }}
             >
               {ExperienceListe.map((expdet) => (
                 <ExpDetails key={expdet.id} experience={expdet} />

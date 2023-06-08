@@ -10,9 +10,9 @@ const CenterPart = () => {
   return (
     <>
       <Center
-        w={{ base: "100%", md: "80%" }}
+        w={{ base: "100%", xl: "80%" }}
         h={"100%"}
-        mx={{ base: 0, md: "10%" }}
+        mx={{ base: 0, xl: "10%" }}
         flexDirection={"column"}
         // bg={"blue.300"}
       >

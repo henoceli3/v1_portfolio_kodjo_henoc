@@ -10,8 +10,8 @@ const NavItemsTemplate = ({ elements }) => {
         justifyContent={"center"}
         alignItems={"center"}
         flexDirection={"row"}
-        h={{ base: "25%", md: "100%" }}
-        w={{ base: "100%", md: "25%" }}
+        h={{ base: "25%", xl: "100%" }}
+        w={{ base: "100%", xl: "25%" }}
         transition={theme.transition}
         href={elements.link}
         className="navitems"

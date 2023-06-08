@@ -11,19 +11,19 @@ const FavaoriteProject = ({ item }) => {
       <Flex w={"100%"} flexDirection={"column"}>
         <Center
           w={"100%"}
-          h={{ base: "60vh", md: "60vh" }}
+          h={{ base: "60vh", xl: "60vh" }}
           //   bg={theme.white}
           mb={"2em"}
-          flexDirection={{ base: "column", md: "row" }}
+          flexDirection={{ base: "column", xl: "row" }}
         >
           <Box
-            w={{ base: "100%", md: "50%" }}
-            h={{ base: "50%", md: "100%" }}
+            w={{ base: "100%", xl: "50%" }}
+            h={{ base: "50%", xl: "100%" }}
             bgImage={`url(${item.imageLink})`}
             bgPosition={"center"}
             bgSize={"contain"}
             bgRepeat={"no-repeat"}
-            display={{ base: "none", md: "flex" }}
+            display={{ base: "none", xl: "flex" }}
           >
             <Box
               w={"100%"}
@@ -35,11 +35,11 @@ const FavaoriteProject = ({ item }) => {
           </Box>
           {/* seconde boxe  */}
           <Center
-            w={{ base: "90%", md: "50%" }}
-            h={{ base: "100%", md: "100%" }}
+            w={{ base: "90%", xl: "50%" }}
+            h={{ base: "100%", xl: "100%" }}
             position={"relative"}
             // bg={theme.white}
-            bgImage={{ base: `url(${item.imageLink})`, md: "" }}
+            bgImage={{ base: `url(${item.imageLink})`, xl: "" }}
             bgPosition={"center"}
             bgSize={"cover"}
             bgRepeat={"no-repeat"}
@@ -48,10 +48,10 @@ const FavaoriteProject = ({ item }) => {
             <Flex
               w={"100%"}
               h={"100%"}
-              bg={{ base: "#0a192fe7", md: "transparent" }}
+              bg={{ base: "#0a192fe7", xl: "transparent" }}
               flexDirection={"column"}
               position={"relative"}
-              alignItems={{ md: "end" }}
+              alignItems={{ xl: "end" }}
             >
               <Text
                 color={theme.green}
@@ -63,17 +63,17 @@ const FavaoriteProject = ({ item }) => {
               <Text color={theme.lightestSlate}>{item.name}</Text>
               {/* la description */}
               <Center
-                w={{ base: "100%", md: "110%" }}
+                w={{ base: "100%", xl: "110%" }}
                 minH={"7em"}
-                bg={{ base: "", md: theme.lightNavy }}
+                bg={{ base: "", xl: theme.lightNavy }}
                 borderRadius={"5px"}
                 mt={"2em"}
               >
-                <Box w={{ base: "100%", md: "90%" }}>
+                <Box w={{ base: "100%", xl: "90%" }}>
                   <Text
                     color={theme.lightSlate}
                     fontSize={"smaller"}
-                    textAlign={{ base: "left", md: "right" }}
+                    textAlign={{ base: "left", xl: "right" }}
                   >
                     {item.description}
                   </Text>
@@ -81,7 +81,7 @@ const FavaoriteProject = ({ item }) => {
               </Center>
               <Center
                 w={"100%"}
-                justifyContent={{ base: "left", md: "right" }}
+                justifyContent={{ base: "left", xl: "right" }}
                 flexWrap={"wrap"}
                 flexDirection={"row"}
               >
@@ -100,7 +100,7 @@ const FavaoriteProject = ({ item }) => {
               <Center
                 w={"100%"}
                 mt={"2em"}
-                justifyContent={{ base: "left", md: "right" }}
+                justifyContent={{ base: "left", xl: "right" }}
               >
                 <Link href={item.reposisterieLink}>
                   <FontAwesomeIcon

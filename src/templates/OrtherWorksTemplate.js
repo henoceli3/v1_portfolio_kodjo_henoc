@@ -10,7 +10,7 @@ const OrtherWorksTemplate = ({ item }) => {
   return (
     <>
       <Center
-        w={{ base: "80%", md: "30%" }}
+        w={{ base: "80%", xl: "30%" }}
         h={"15em"}
         mb={"2em"}
         bg={theme.lightNavy}

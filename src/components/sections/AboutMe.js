@@ -13,8 +13,8 @@ const AboutMe = () => {
   return (
     <>
       <Center
-        w={{ base: "100%", md: "80%" }}
-        h={{ base: "auto", md: "100vh" }}
+        w={{ base: "100%", xl: "80%" }}
+        h={{ base: "auto", xl: "100vh" }}
         flexDirection={"column"}
         justifyContent={"space-between"}
         id="about"
@@ -22,13 +22,13 @@ const AboutMe = () => {
       >
         <SectionHeading headingItem={HeadingDetails} />
         <Flex
-          w={{ base: "95%", md: "100%" }}
-          h={{ base: "auto", md: "90vh" }}
-          flexDirection={{ base: "column", md: "row" }}
+          w={{ base: "95%", xl: "100%" }}
+          h={{ base: "auto", xl: "90vh" }}
+          flexDirection={{ base: "column", xl: "row" }}
         >
           <Box
-            w={{ base: "100%", md: "60%" }}
-            h={{ base: "100vh", md: "100%" }}
+            w={{ base: "100%", xl: "60%" }}
+            h={{ base: "100vh", md: "50vh", xl: "100%" }}
             // bg={theme.green}
           >
             <Text
@@ -134,14 +134,14 @@ const AboutMe = () => {
 
           {/* ma photo  */}
           <Center
-            w={{ base: "100%", md: "40%" }}
-            h={{ base: "50vh", md: "100%" }}
-            alignItems={{ base: "center", md: "start" }}
+            w={{ base: "100%", xl: "40%" }}
+            h={{ base: "50vh", xl: "100%" }}
+            alignItems={{ base: "center", xl: "start" }}
             // bg={theme.blue}
           >
             <Box
-              w={{ base: "250px", md: "300px" }}
-              h={{ base: "250px", md: "300px" }}
+              w={{ base: "250px", xl: "300px" }}
+              h={{ base: "250px", xl: "300px" }}
               bg={theme.white}
               backgroundImage={"url('me.png')"}
               backgroundSize={"cover"}

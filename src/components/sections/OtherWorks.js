@@ -41,10 +41,10 @@ const OtherWorks = () => {
       </Center>
       <Flex
         w={"100%"}
-        minH={{ base: "100vh", md: "70vh" }}
-        justifyContent={{ base: "center", md: "space-around" }}
+        minH={{ base: "100vh", xl: "70vh" }}
+        justifyContent={{ base: "center", xl: "space-around" }}
         alignItems={"center"}
-        flexDirection={{ base: "column", md: "row" }}
+        flexDirection={{ base: "column", xl: "row" }}
         flexWrap={"wrap"}
       >
         {OtherWorksList.slice(0, visibleProjects).map((works) => (

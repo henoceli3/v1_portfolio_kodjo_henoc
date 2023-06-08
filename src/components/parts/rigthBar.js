@@ -11,7 +11,7 @@ const RigthBar = () => {
         right={0}
         top={0}
         bottom={0}
-        display={{ base: "none", md: "flex" }}
+        display={{ base: "none", xl: "flex" }}
         justifyContent={"end"}
         flexDirection={"column"}
         fontFamily={theme.fontSans}
