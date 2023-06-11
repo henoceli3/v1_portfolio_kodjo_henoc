@@ -4,6 +4,12 @@ import SectionHeading from "../sectionHeading";
 import { FlagshipProject } from "@/confing";
 import FavaoriteProject from "@/templates/FavaoriteProject";
 
+
+/**
+ * Renders a component that displays a list of flagship projects.
+ *
+ * @return {JSX.Element} A React component that displays a list of flagship projects.
+ */
 const MyWorks = () => {
   const HeadingDetails = {
     number: "03.",

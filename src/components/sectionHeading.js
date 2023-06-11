@@ -2,6 +2,14 @@ import theme from "@/styles/root";
 import { Box, Center, Text } from "@chakra-ui/react";
 import React from "react";
 
+/**
+ * Renders a section heading with a title, a number and a horizontal line.
+ *
+ * @param {Object} headingItem - An object containing the section heading details.
+ * @param {string} headingItem.title - The title of the section heading.
+ * @param {string} headingItem.number - The number of the section heading.
+ * @return {ReactNode} The rendered section heading.
+ */
 const SectionHeading = ({ headingItem }) => {
   return (
     <>

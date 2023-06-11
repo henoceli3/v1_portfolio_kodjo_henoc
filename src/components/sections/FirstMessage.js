@@ -2,6 +2,13 @@ import theme from "@/styles/root";
 import { Center, Flex, Heading, Link, Text } from "@chakra-ui/react";
 import React from "react";
 
+
+/**
+ * Renders a React component displaying the author's name, job title, and a brief
+ * description of their skills and interests.
+ *
+ * @return {JSX.Element} The rendered React component.
+ */
 const FirstMessage = () => {
   return (
     <>

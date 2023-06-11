@@ -2,6 +2,11 @@ import theme from "@/styles/root";
 import { Box, Center, Link, Text } from "@chakra-ui/react";
 import React from "react";
 
+/**
+ * Renders a right side bar component with email link and separator.
+ *
+ * @return {JSX.Element} The right side bar component.
+ */
 const RigthBar = () => {
   return (
     <>
@@ -21,7 +26,6 @@ const RigthBar = () => {
           fontSize={"12px"}
           w={"100%"}
           h={"20em"}
-          // bg={theme.green}
           mb={"2em"}
         >
           <Link

@@ -8,6 +8,11 @@ import OtherWorks from "../sections/OtherWorks";
 import ContactMe from "../sections/ContactMe";
 import Footer from "../sections/Footer";
 
+/**
+ * Renders a centered part of a webpage, containing various components.
+ *
+ * @return {JSX.Element} The centered part of the webpage as a JSX element.
+ */
 const CenterPart = () => {
   return (
     <>
@@ -16,7 +21,6 @@ const CenterPart = () => {
         h={"100%"}
         mx={{ base: 0, xl: "10%" }}
         flexDirection={"column"}
-        // bg={"blue.300"}
       >
         <FirstMessage />
         <AboutMe />

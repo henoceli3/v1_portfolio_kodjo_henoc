@@ -19,6 +19,11 @@ import CenterPart from "@/components/parts/CenterPart";
 
 const inter = Inter({ subsets: ["latin"] });
 
+/**
+ * Renders the Home component and handles scrolling behavior of the window.
+ *
+ * @return {JSX.Element} The Home component JSX element.
+ */
 export default function Home() {
   const appStoreColor = "red";
   const [isLargerThan1280] = useMediaQuery("(min-width: 1280px)");
@@ -67,7 +72,6 @@ export default function Home() {
         <Center
           w={"100%"}
           h={"8vh"}
-          // position={{ base: "fixed", xl: "relative" }}
           position={scrollPosition !== 0 ? "fixed" : "relative"}
           bg={theme.navy}
           zIndex={"banner"}

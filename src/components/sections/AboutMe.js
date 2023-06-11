@@ -5,6 +5,12 @@ import SectionHeading from "../sectionHeading";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 
+
+/**
+ * Renders a section with information about the author.
+ *
+ * @return {JSX.Element} The JSX element for the section.
+ */
 const AboutMe = () => {
   const HeadingDetails = {
     number: "01.",

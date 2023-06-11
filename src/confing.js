@@ -35,80 +35,17 @@ const ExperienceListe = [
       {
         id: 1,
         description:
-          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
+          "Concevoir des interfaces de qualité pour les applications avec Next.js",
       },
       {
         id: 2,
         description:
-          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
+          "Concevoir des API pour le backend des applications avec Node.js / Express",
       },
       {
         id: 3,
         description:
-          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
-      },
-      {
-        id: 4,
-        description:
-          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
-      },
-    ],
-    link: "#",
-  },
-  {
-    id: 2,
-    Enterprise: "Tech Maker",
-    position: "Dévellopeur FullStack",
-    date: "AVRIL 2023 - maintenant",
-    works: [
-      {
-        id: 1,
-        description:
-          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
-      },
-      {
-        id: 2,
-        description:
-          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
-      },
-      {
-        id: 3,
-        description:
-          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
-      },
-      {
-        id: 4,
-        description:
-          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
-      },
-    ],
-    link: "#",
-  },
-  {
-    id: 3,
-    Enterprise: "Tech Maker",
-    position: "Dévellopeur FullStack",
-    date: "AVRIL 2023 - maintenant",
-    works: [
-      {
-        id: 1,
-        description:
-          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
-      },
-      {
-        id: 2,
-        description:
-          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
-      },
-      {
-        id: 3,
-        description:
-          "Occaecat aute consectetur ad ullamco cupidatat enim voluptate duis mollit quis. Veniam occaecat consectetur veniam esse. Officia aliqua do veniam laborum voluptate sint qui. Quis labore sint veniam anim aute laboris aute elit esse laboris voluptate adipisicing reprehenderit. Non laborum nostrud ipsum ad ex Lorem ad.",
-      },
-      {
-        id: 4,
-        description:
-          "Cillum magna tempor eu dolor in cillum. Duis elit ex ea eu anim. Aliqua eu nisi consectetur et.",
+          "Concevoir les bases de données comme MySQL pour les applications",
       },
     ],
     link: "#",
@@ -122,7 +59,7 @@ const FlagshipProject = [
     type: "Projet Vedette",
     name: "Pierre Papier Ciseaux",
     description:
-      "Reprehenderit quis eu id enim. Occaecat sit fugiat commodo aliquip non excepteur velit non id nisi dolor irure elit consequat. Enim esse aliquip ea cillum do ut nostrud irure proident pariatur irure minim nisi.",
+      "Le mythique jeu de pierre-papier-ciseaux reconstitué dans une expérience hors du commun. Affrontez l'ordinateur et faites votre meilleur score.",
     language: ["HTML5", "CSS3", "JAVASCRIPTE"],
     liveLink: "https://henoceli3.github.io/rock-paper-scissors-master/",
     reposisterieLink: "https://github.com/henoceli3/rock-paper-scissors-master",
@@ -133,7 +70,7 @@ const FlagshipProject = [
     type: "Projet Vedette",
     name: "Countries Rest App",
     description:
-      "Reprehenderit quis eu id enim. Occaecat sit fugiat commodo aliquip non excepteur velit non id nisi dolor irure elit consequat. Enim esse aliquip ea cillum do ut nostrud irure proident pariatur irure minim nisi.",
+      "Un site web qui référence tous les pays ainsi que diverses informations sur ces derniers. Les données sont fournies par l'API Rest Countries. Je vous invite à jeter un coup d'œil pour réviser la géographie.",
     language: ["HTML5", "CSS3", "JAVASCRIPTE", "React", "Rest Countrie Api"],
     liveLink: "https://henoceli3.github.io/rest-countries-api/",
     reposisterieLink: "https://github.com/henoceli3/rest-countries-api",
@@ -144,7 +81,7 @@ const FlagshipProject = [
     type: "Projet Vedette",
     name: "Sneakers",
     description:
-      "Reprehenderit quis eu id enim. Occaecat sit fugiat commodo aliquip non excepteur velit non id nisi dolor irure elit consequat. Enim esse aliquip ea cillum do ut nostrud irure proident pariatur irure minim nisi.",
+      "Une copie de ce qui pourrait être une page Produit d'un site e-commerce.",
     language: ["HTML5", "CSS3", "JAVASCRIPTE"],
     liveLink: "https://henoceli3.github.io/ecommerce-product-page-main/",
     reposisterieLink:
@@ -158,8 +95,7 @@ const OtherWorksList = [
     externalLink: "https://henoceli3.github.io/results-summary-component-main/",
     githubLink: "https://github.com/henoceli3/results-summary-component-main",
     title: "Summary Components Main",
-    description:
-      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
+    description: "Une petite carte qui présente des statistiques.",
     langagues: ["REACT", "HTML5", "CSS3"],
   },
   {
@@ -169,8 +105,7 @@ const OtherWorksList = [
     githubLink:
       "https://github.com/henoceli3/ok-intro-section-with-dropdown-navigation-main",
     title: "Main Page",
-    description:
-      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
+    description: "Une page principale avec un design sobre et futuriste.",
     langagues: ["HTML5", "CSS3", "JAVASCRIPTE"],
   },
   {
@@ -178,8 +113,7 @@ const OtherWorksList = [
     externalLink: "",
     githubLink: "https://github.com/henoceli3/node-4kBoutik",
     title: "4Kboutique",
-    description:
-      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
+    description: "API d'une boutique en ligne.",
     langagues: ["NODE.JS", "EXPRESSE", "JAVASCRIPTE"],
   },
   {
@@ -187,27 +121,8 @@ const OtherWorksList = [
     externalLink: "",
     githubLink: "https://github.com/henoceli3/node-pokemon-api",
     title: "Pokemon Api",
-    description:
-      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
+    description: "API sur le thème des Pokémon.",
     langagues: ["NODE.JS", "EXPRESSE", "JAVASCRIPTE"],
-  },
-  {
-    id: 5,
-    externalLink: "https://henoceli3.github.io/results-summary-component-main/",
-    githubLink: "https://github.com/henoceli3/results-summary-component-main",
-    title: "Pokemon App",
-    description:
-      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
-    langagues: ["ANGULAR", "HTML5", "CSS3", "BOOSTRAP", "TYPESCRIPTE"],
-  },
-  {
-    id: 6,
-    externalLink: "https://henoceli3.github.io/results-summary-component-main/",
-    githubLink: "https://github.com/henoceli3/results-summary-component-main",
-    title: "POKEMON APP",
-    description:
-      "Ullamco sunt nostrud culpa quis cupidatat fugiat exercitation in",
-    langagues: ["ANGULAR", "HTML5", "CSS3", "BOOSTRAP", "TYPESCRIPTE"],
   },
 ];
 let OtheProjectLength = OtherWorksList.length;

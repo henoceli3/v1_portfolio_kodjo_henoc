@@ -14,6 +14,12 @@ import { ExperienceListe } from "@/confing";
 import TabExp from "@/templates/TabExp";
 import ExpDetails from "@/templates/ExpDetails";
 
+
+/**
+ * Renders the Experience component which displays the user's experience details.
+ *
+ * @return {JSX.Element} The rendered Experience component.
+ */
 const Experience = () => {
   const HeadingDetails = {
     number: "02.",

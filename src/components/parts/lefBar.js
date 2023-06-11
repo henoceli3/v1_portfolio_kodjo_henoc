@@ -10,6 +10,12 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
+
+/**
+ * Renders a left bar with social media links.
+ *
+ * @return {JSX.Element} The JSX element of the left bar.
+ */
 const LeftBar = () => {
   return (
     <>
@@ -20,7 +26,6 @@ const LeftBar = () => {
         top={0}
         bottom={0}
         display={{ base: "none", xl: "flex" }}
-        // bg={theme.green}
         color={"white"}
         justifyContent={"end"}
         flexDirection={"column"}

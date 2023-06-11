@@ -13,6 +13,12 @@ import React from "react";
 import Navigation from "./sections/Nav";
 import { HamburgerIcon } from "@chakra-ui/icons";
 
+
+/**
+ * Renders a mobile menu that opens and closes a drawer containing navigation.
+ *
+ * @return {JSX.Element} The mobile menu component.
+ */
 function MobileMenu() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();

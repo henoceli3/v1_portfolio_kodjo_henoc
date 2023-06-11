@@ -5,6 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import ListDetailsExp from "./ListDetailsExp";
 
+/**
+ * Renders the experience details for a given experience object.
+ *
+ * @param {Object} experience - The experience object to render details for.
+ * @return {JSX.Element} - The JSX element containing the rendered experience details.
+ */
 const ExpDetails = ({ experience }) => {
   return (
     <>

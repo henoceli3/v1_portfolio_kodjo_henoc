@@ -2,6 +2,12 @@ import theme from "@/styles/root";
 import { Center, Link, Text } from "@chakra-ui/react";
 import React from "react";
 
+
+/**
+ * Renders a contact form on the page.
+ *
+ * @return {JSX.Element} A JSX element containing a contact form.
+ */
 const ContactMe = () => {
   return (
     <>
@@ -9,7 +15,11 @@ const ContactMe = () => {
         <Text fontFamily={theme.fontSans} color={theme.green} fontSize={".8em"}>
           04.Et après ?
         </Text>
-        <Text color={theme.lightestSlate} fontWeight={"bold"} fontSize={{base:'1.5em',xl:"2em"}}>
+        <Text
+          color={theme.lightestSlate}
+          fontWeight={"bold"}
+          fontSize={{ base: "1.5em", xl: "2em" }}
+        >
           Entrer en Contact
         </Text>
         <Text
@@ -18,12 +28,9 @@ const ContactMe = () => {
           w={{ base: "100%", xl: "70%" }}
           fontSize={".8em"}
         >
-          Fugiat minim occaecat adipisicing commodo ea ipsum eiusmod ex non est
-          nisi laborum anim magna. Ut id labore irure consectetur cillum labore
-          consectetur ut. Consectetur qui incididunt amet mollit deserunt labore
-          enim ipsum nulla dolor ad aliquip ut irure. Aliqua sint labore sunt ut
-          voluptate reprehenderit magna. Laboris aliqua deserunt nisi amet
-          laboris consequat esse. In proident quis laboris aute ullamco et.
+          {
+            "Je suis actuellement à la recherche d'un stage de fin de cycle BAC+3 et je suis également disponible pour des contrats en freelance."
+          }
         </Text>
 
         <Link
@@ -48,7 +55,7 @@ const ContactMe = () => {
           }}
           href="mailto:kodjohenoc07@gmail.com"
         >
-          Dis Bonjour
+          Me Contater
         </Link>
       </Center>
     </>

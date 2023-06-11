@@ -2,6 +2,12 @@ import theme from "@/styles/root";
 import { Center, Link, Text } from "@chakra-ui/react";
 import React from "react";
 
+
+/**
+ * Renders the Footer component displaying a message and a link.
+ *
+ * @return {JSX.Element} The Footer component.
+ */
 const Footer = () => {
   return (
     <>

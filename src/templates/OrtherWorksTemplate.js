@@ -6,6 +6,13 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
+
+/**
+ * Renders a template for displaying an item's information.
+ *
+ * @param {Object} item - An object containing the item's information.
+ * @return {JSX.Element} The template as a JSX element.
+ */
 const OrtherWorksTemplate = ({ item }) => {
   return (
     <>

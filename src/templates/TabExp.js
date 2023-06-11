@@ -2,6 +2,13 @@ import theme from "@/styles/root";
 import { Tab } from "@chakra-ui/react";
 import React from "react";
 
+
+/**
+ * Renders a tab displaying the given enterprise experience.
+ *
+ * @param {object} experience - The enterprise experience to display.
+ * @return {JSX.Element} A tab with the given enterprise experience.
+ */
 const TabExp = ({ experience }) => {
   return (
     <>

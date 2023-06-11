@@ -5,6 +5,13 @@ import { Button, Center, Flex, Heading, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import { useState } from "react";
 
+
+
+/**
+ * Renders a section with other works.
+ *
+ * @return {JSX.Element} The JSX code for the section with other works.
+ */
 const OtherWorks = () => {
   const [visibleProjects, setVisibleProjects] = useState(6);
   const [showMore, setShowMore] = useState(false);

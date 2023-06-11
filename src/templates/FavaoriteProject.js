@@ -5,6 +5,12 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
+/**
+ * Renders a favorite project item as a JSX element.
+ *
+ * @param {Object} item - An object representing a favorite project.
+ * @return {JSX.Element} - The favorite project item as a JSX element.
+ */
 const FavaoriteProject = ({ item }) => {
   return (
     <>
@@ -12,7 +18,6 @@ const FavaoriteProject = ({ item }) => {
         <Center
           w={"100%"}
           h={{ base: "60vh", xl: "60vh" }}
-          //   bg={theme.white}
           mb={"2em"}
           flexDirection={{ base: "column", xl: "row" }}
         >
@@ -25,26 +30,17 @@ const FavaoriteProject = ({ item }) => {
             bgRepeat={"no-repeat"}
             display={{ base: "none", xl: "flex" }}
           >
-            <Box
-              w={"100%"}
-              h={"100%"}
-              bg={"#64ffdb29"}
-              _hover={{ bg: "transparent" }}
-              transition={theme.transition}
-            ></Box>
           </Box>
           {/* seconde boxe  */}
           <Center
             w={{ base: "90%", xl: "50%" }}
             h={{ base: "100%", xl: "100%" }}
             position={"relative"}
-            // bg={theme.white}
             bgImage={{ base: `url(${item.imageLink})`, xl: "" }}
             bgPosition={"center"}
             bgSize={"cover"}
             bgRepeat={"no-repeat"}
           >
-            {/* pour appliquer le filtre  */}
             <Flex
               w={"100%"}
               h={"100%"}

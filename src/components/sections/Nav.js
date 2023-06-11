@@ -4,6 +4,12 @@ import NavItemsTemplate from "@/templates/navItemsTemplate";
 import { Center, Link } from "@chakra-ui/react";
 import React from "react";
 
+
+/**
+ * Component responsible for rendering navigation items and a button.
+ *
+ * @return {JSX.Element} The JSX element representing the navigation and button.
+ */
 const Navigation = () => {
   return (
     <>
@@ -34,7 +40,6 @@ const Navigation = () => {
             h={{ base: "40%", xl: "60%" }}
             w={{ base: "50%", xl: "90%" }}
             href="https://cvdesignr.com/p/64285ea55890e"
-            // download={"CV_2023-05-18_TAMEGNON ELISEE HENOC_KODJO"}
             borderRadius={"5px"}
             borderWidth={"1px"}
             borderColor={theme.green}

@@ -4,6 +4,12 @@ import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
+/**
+ * Renders a component displaying a list item's details.
+ *
+ * @param {Object} item - The item object to display details of.
+ * @return {JSX.Element} A React element representing the list item's details.
+ */
 const ListDetailsExp = ({item}) => {
     return (
       <>
