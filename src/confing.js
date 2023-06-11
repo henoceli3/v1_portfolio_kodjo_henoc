@@ -9,19 +9,19 @@ const navItems = [
     id: 2,
     range: "02.",
     item: "Experience",
-    link: "#",
+    link: "#experience",
   },
   {
     id: 3,
     range: "03.",
     item: "Work",
-    link: "#",
+    link: "#work",
   },
   {
     id: 4,
     range: "04.",
     item: "Contact",
-    link: "#",
+    link: "#contact",
   },
 ];
 

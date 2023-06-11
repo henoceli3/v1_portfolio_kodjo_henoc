@@ -5,6 +5,8 @@ import AboutMe from "../sections/AboutMe";
 import Experience from "../sections/Experience";
 import MyWorks from "../sections/MyWorks";
 import OtherWorks from "../sections/OtherWorks";
+import ContactMe from "../sections/ContactMe";
+import Footer from "../sections/Footer";
 
 const CenterPart = () => {
   return (
@@ -21,6 +23,8 @@ const CenterPart = () => {
         <Experience />
         <MyWorks />
         <OtherWorks />
+        <ContactMe />
+        <Footer />
       </Center>
     </>
   );

@@ -25,6 +25,7 @@ const Experience = () => {
         w={"100%"}
         h={{ base: "auto", xl: "100vh" }}
         justifyContent={{ base: "center", xl: "end" }}
+        id="experience"
       >
         <Box w={{ base: "95%", xl: "80%" }} h={{ base: "auto", xl: "90%" }}>
           <SectionHeading headingItem={HeadingDetails} />

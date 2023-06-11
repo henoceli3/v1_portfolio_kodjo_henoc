@@ -92,3 +92,8 @@ a {
   background-color: var(--lightest-navy);
   color: var(--lightest-slate);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+

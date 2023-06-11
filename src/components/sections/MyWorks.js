@@ -11,7 +11,7 @@ const MyWorks = () => {
   };
   return (
     <>
-      <Flex w={"100%"} h={"auto"} flexDirection={"column"}>
+      <Flex w={"100%"} h={"auto"} flexDirection={"column"} id="#work">
         <SectionHeading headingItem={HeadingDetails} />
         {FlagshipProject.map((project) => (
           <FavaoriteProject key={project.id} item={project} />

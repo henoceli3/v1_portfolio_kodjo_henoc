@@ -67,13 +67,13 @@ const OrtherWorksTemplate = ({ item }) => {
             <Text color={theme.slate} fontSize={"smaller"} mb={"2em"}>
               {item.description}
             </Text>
-            <Flex w={"100%"} fontSize={"small"}>
+            <Flex w={"100%"} fontSize={"small"} flexWrap={'wrap'}>
               {item.langagues.map((language, indexe) => (
                 <Text
                   key={indexe}
                   fontFamily={theme.fontSans}
                   color={theme.slate}
-                  ml={"5px"}
+                  ml={{base:"5px"}}
                   textTransform={"capitalize"}
                 >
                   {language}
