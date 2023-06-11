@@ -33,7 +33,8 @@ const AboutMe = () => {
         >
           <Box
             w={{ base: "100%", xl: "60%" }}
-            h={{ base: "100vh", md: "50vh", xl: "100%" }}
+            h={{ base: "auto", md: "50vh", xl: "100%" }}
+            // bg={theme.blue}
           >
             <Text
               color={theme.slate}
@@ -138,7 +139,6 @@ const AboutMe = () => {
             w={{ base: "100%", xl: "40%" }}
             h={{ base: "50vh", xl: "100%" }}
             alignItems={{ base: "center", xl: "start" }}
-            // bg={theme.blue}
           >
             <Box
               w={{ base: "250px", xl: "300px" }}
