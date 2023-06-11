@@ -11,7 +11,7 @@ import React from "react";
 const ContactMe = () => {
   return (
     <>
-      <Center w={"100%"} h={"100vh"} flexDirection={"column"} id="contact">
+      <Center w={"100%"} h={"auto"} flexDirection={"column"} id="contact" mt={"5em"}>
         <Text fontFamily={theme.fontSans} color={theme.green} fontSize={".8em"}>
           04.Et après ?
         </Text>
