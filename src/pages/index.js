@@ -65,6 +65,9 @@ export default function Home() {
           content="codeed by Kodjo Henoc [ @henoceli3 ]on github"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:image" content="preview.png" />
+        <meta property="og:title" content="KODJO HENOC | Portfolio" />
+        <meta property="og:description" content="Portfolio de KODJO Henoc" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Box w={"100%"} transition={theme.transition}>
