@@ -62,16 +62,16 @@ export default function Home() {
         <title>Kodjo Henoc</title>
         <meta
           name="description"
-          content="codeed by Kodjo Henoc [ @henoceli3 ]on github"
+          content="codeed by Kodjo Henoc [@henoceli3] on github"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:image" content="preview.png" />
+        <meta property="og:image" content="/preview.png" />
         <meta property="og:title" content="KODJO HENOC | Portfolio" />
         <meta property="og:description" content="Portfolio de KODJO Henoc" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Box w={"100%"} transition={theme.transition}>
-        {/* le header  */}
+        {/* le header */}
         <Center
           w={"100%"}
           h={"8vh"}
@@ -85,7 +85,7 @@ export default function Home() {
             alignItems={"center"}
             justifyContent={"space-between"}
           >
-            {/* logo  */}
+            {/* logo */}
             <Link
               h={"100%"}
               w={"auto"}
@@ -98,19 +98,19 @@ export default function Home() {
               </Heading>
             </Link>
 
-            {/* le button du menu  */}
+            {/* le button du menu */}
             {isLargerThan1280 ? <Navigation /> : <MobileMenu />}
           </Flex>
         </Center>
 
-        {/* le corps  */}
+        {/* le corps */}
         <Flex w={"100%"} minH={"92vh"} flexDirection={"row"} bg={theme.navy}>
           <LeftBar />
           <CenterPart />
           <RigthBar />
         </Flex>
 
-        {/* footer  */}
+        {/* footer */}
       </Box>
     </>
   );
