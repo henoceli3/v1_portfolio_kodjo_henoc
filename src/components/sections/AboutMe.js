@@ -24,6 +24,7 @@ const AboutMe = () => {
         flexDirection={"column"}
         justifyContent={"space-between"}
         id="about"
+        mb={'5em'}
       >
         <SectionHeading headingItem={HeadingDetails} />
         <Flex
@@ -34,7 +35,6 @@ const AboutMe = () => {
           <Box
             w={{ base: "100%", xl: "60%" }}
             h={{ base: "auto", md: "50vh", xl: "100%" }}
-            // bg={theme.blue}
           >
             <Text
               color={theme.slate}

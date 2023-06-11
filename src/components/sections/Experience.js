@@ -29,9 +29,11 @@ const Experience = () => {
     <>
       <Center
         w={"100%"}
-        h={{ base: "auto", xl: "100vh" }}
+        h={{ base: "auto", xl: "70vh" }}
         justifyContent={{ base: "center", xl: "end" }}
         id="experience"
+        // bg={"blue.200"}
+        mb={'5em'}
       >
         <Box w={{ base: "95%", xl: "80%" }} h={{ base: "auto", xl: "90%" }}>
           <SectionHeading headingItem={HeadingDetails} />
@@ -40,7 +42,7 @@ const Experience = () => {
             flexDirection={{ base: "column", xl: "row" }}
             color={theme.lightSlate}
             w={"100%"}
-            h={{ base: "100vh", xl: "90%" }}
+            h={{ base: "auto", xl: "90%" }}
             variant={"unstyled"}
           >
             <TabList
