@@ -19,7 +19,7 @@ const FirstMessage = () => {
             fontFamily={theme.fontSans}
             fontSize={"smaller"}
           >
-            Salut, Je mon nom est
+            Salut, mon nom est
           </Text>
           <Heading
             color={theme.lightestSlate}
