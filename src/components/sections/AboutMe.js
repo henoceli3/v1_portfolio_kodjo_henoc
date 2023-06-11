@@ -24,7 +24,6 @@ const AboutMe = () => {
         flexDirection={"column"}
         justifyContent={"space-between"}
         id="about"
-        // bg={theme.green}
       >
         <SectionHeading headingItem={HeadingDetails} />
         <Flex
@@ -35,7 +34,6 @@ const AboutMe = () => {
           <Box
             w={{ base: "100%", xl: "60%" }}
             h={{ base: "100vh", md: "50vh", xl: "100%" }}
-            // bg={theme.green}
           >
             <Text
               color={theme.slate}
@@ -43,12 +41,9 @@ const AboutMe = () => {
               fontSize={"sm"}
               mb={"1em"}
             >
-              Ullamco in elit consectetur et laborum in laboris adipisicing
-              pariatur consectetur enim anim laboris. Proident duis incididunt
-              laborum pariatur sit proident non aute et laborum. Exercitation
-              aliquip eu exercitation nulla velit cillum ad sunt elit nisi
-              veniam eiusmod dolore laboris. Labore duis Lorem qui pariatur
-              ullamco irure sunt eiusmod excepteur.
+              {
+                "Salut, je m'appelle KODJO HENOC. Je suis passionné par le codage, avec une appétence particulière pour le web. Je suis actuellement étudiant en fin d'études en MIAGE. J'ai la chance de faire partie d'une équipe de développeurs très talentueux qui m'aident à m'améliorer et à faire mes preuves."
+              }
             </Text>
             <Text
               color={theme.slate}
@@ -56,25 +51,8 @@ const AboutMe = () => {
               fontSize={"sm"}
               mb={"1em"}
             >
-              Ullamco in elit consectetur et laborum in laboris adipisicing
-              pariatur consectetur enim anim laboris. Proident duis incididunt
-              laborum pariatur sit proident non aute et laborum. Exercitation
-              aliquip eu exercitation nulla velit cillum ad sunt elit nisi
-              veniam eiusmod dolore laboris. Labore duis Lorem qui pariatur
-              ullamco irure sunt eiusmod excepteur.
-            </Text>
-            <Text
-              color={theme.slate}
-              textAlign={"justify"}
-              fontSize={"sm"}
-              mb={"1em"}
-            >
-              Ullamco in elit consectetur et laborum in laboris adipisicing
-              pariatur consectetur enim anim laboris.
-            </Text>
-            <Text color={theme.slate} textAlign={"justify"} fontSize={"sm"}>
-              Ullamco in elit consectetur et laborum in laboris adipisicing
-              pariatur consectetur enim anim laboris.
+              Ci-dessous, voici les technologies avec lesquelles je travaille
+              actuellement.
             </Text>
 
             <Flex
@@ -94,6 +72,15 @@ const AboutMe = () => {
                   />
                   <Text ml={"1em"}>React</Text>
                 </Center>
+                {/* Next.js  */}
+                <Center justifyContent={"start"}>
+                  <FontAwesomeIcon
+                    icon={faCaretRight}
+                    style={{ color: theme.green }}
+                    size="xs"
+                  />
+                  <Text ml={"1em"}>Next.js</Text>
+                </Center>
                 {/* Node.js/Expresse  */}
                 <Center justifyContent={"start"}>
                   <FontAwesomeIcon
@@ -103,18 +90,8 @@ const AboutMe = () => {
                   />
                   <Text ml={"1em"}>Node.Js/Expresse</Text>
                 </Center>
-                {/* Angular  */}
-                <Center justifyContent={"start"}>
-                  <FontAwesomeIcon
-                    icon={faCaretRight}
-                    style={{ color: theme.green }}
-                    size="xs"
-                  />
-                  <Text ml={"1em"}>Angular</Text>
-                </Center>
               </Box>
 
-              {/* première box  */}
               <Box w={"50%"}>
                 {/* JavaScript */}
                 <Center justifyContent={"start"}>
@@ -133,6 +110,24 @@ const AboutMe = () => {
                     size="xs"
                   />
                   <Text ml={"1em"}>TypeScripte</Text>
+                </Center>
+                {/* HTML/CSS  */}
+                <Center justifyContent={"start"}>
+                  <FontAwesomeIcon
+                    icon={faCaretRight}
+                    style={{ color: theme.green }}
+                    size="xs"
+                  />
+                  <Text ml={"1em"}>HTML/CSS</Text>
+                </Center>
+                {/* MySql  */}
+                <Center justifyContent={"start"}>
+                  <FontAwesomeIcon
+                    icon={faCaretRight}
+                    style={{ color: theme.green }}
+                    size="xs"
+                  />
+                  <Text ml={"1em"}>MySql</Text>
                 </Center>
               </Box>
             </Flex>
