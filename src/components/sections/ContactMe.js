@@ -29,7 +29,7 @@ const ContactMe = () => {
           fontSize={".8em"}
         >
           {
-            "Je suis actuellement à la recherche d'un stage de fin de cycle BAC+3 et je suis également disponible pour des contrats en freelance."
+            "Je suis actuellement à la recherche d'un stage de fin de cycle BAC+3"
           }
         </Text>
 
