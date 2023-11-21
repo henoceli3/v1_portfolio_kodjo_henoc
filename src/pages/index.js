@@ -92,6 +92,7 @@ export default function Home() {
               display={"flex"}
               justifyContent={"center"}
               alignItems={"center"}
+              href="/"
             >
               <Heading color={theme.green} fontSize={"2xl"}>
                 KOD
