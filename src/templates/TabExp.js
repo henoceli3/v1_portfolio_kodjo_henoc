@@ -2,7 +2,6 @@ import theme from "@/styles/root";
 import { Tab } from "@chakra-ui/react";
 import React from "react";
 
-
 /**
  * Renders a tab displaying the given enterprise experience.
  *

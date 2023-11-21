@@ -36,7 +36,7 @@ const FirstMessage = () => {
             w={{ base: "90%", xl: "50%" }}
           >
             {
-              "Je suis un développeur junior passionné par le web. J'adore concevoir de belles interfaces adossées à un backend solide quand il le faut."
+              "Passionné par le développement web et mobile, je suis un junior créatif et déterminé. Avec une solide base de compétences, je m'efforce d'apporter des solutions innovantes et intuitives à chaque projet. Prêt à relever de nouveaux défis et à contribuer au monde numérique en constante évolution."
             }
           </Text>
           <Link

@@ -1,10 +1,11 @@
 import theme from "@/styles/root";
-import { Box, Center, Flex, Heading, Text } from "@chakra-ui/react";
-import React, { useState } from "react";
+import { Box, Center, Flex, Text } from "@chakra-ui/react";
+import React from "react";
 import SectionHeading from "../sectionHeading";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
-
+import { FrameWorks, Languages } from "@/confing";
+import LanguagesFrameworks from "@/templates/language_frameworks";
 
 /**
  * Renders a section with information about the author.
@@ -24,7 +25,7 @@ const AboutMe = () => {
         flexDirection={"column"}
         justifyContent={"space-between"}
         id="about"
-        mb={'5em'}
+        mb={"5em"}
       >
         <SectionHeading headingItem={HeadingDetails} />
         <Flex
@@ -43,7 +44,7 @@ const AboutMe = () => {
               mb={"1em"}
             >
               {
-                "Salut, je m'appelle KODJO HENOC. Je suis passionné par le codage, avec une appétence particulière pour le web. Je suis actuellement étudiant en fin d'études en MIAGE. J'ai la chance de faire partie d'une équipe de développeurs très talentueux qui m'aident à m'améliorer et à faire mes preuves."
+                "Diplômé en MIAGE, je suis KODJO HENOC, un développeur web et mobile passionné. Mon parcours académique renforcé et mes compétences étendues reflètent ma détermination à évoluer dans l'univers du code. Anciennement étudiant, aujourd'hui, je m'épanouis en contribuant à des projets innovants au sein d'une équipe de développeurs talentueux."
               }
             </Text>
             <Text
@@ -64,72 +65,19 @@ const AboutMe = () => {
             >
               {/* première box  */}
               <Box w={"50%"}>
-                {/* React */}
-                <Center justifyContent={"start"}>
-                  <FontAwesomeIcon
-                    icon={faCaretRight}
-                    style={{ color: theme.green }}
-                    size="xs"
-                  />
-                  <Text ml={"1em"}>React</Text>
-                </Center>
-                {/* Next.js  */}
-                <Center justifyContent={"start"}>
-                  <FontAwesomeIcon
-                    icon={faCaretRight}
-                    style={{ color: theme.green }}
-                    size="xs"
-                  />
-                  <Text ml={"1em"}>Next.js</Text>
-                </Center>
-                {/* Node.js/Expresse  */}
-                <Center justifyContent={"start"}>
-                  <FontAwesomeIcon
-                    icon={faCaretRight}
-                    style={{ color: theme.green }}
-                    size="xs"
-                  />
-                  <Text ml={"1em"}>Node.Js/Expresse</Text>
-                </Center>
+                {FrameWorks.map((item) => (
+                  <LanguagesFrameworks key={item.id}>
+                    {item}
+                  </LanguagesFrameworks>
+                ))}
               </Box>
 
               <Box w={"50%"}>
-                {/* JavaScript */}
-                <Center justifyContent={"start"}>
-                  <FontAwesomeIcon
-                    icon={faCaretRight}
-                    style={{ color: theme.green }}
-                    size="xs"
-                  />
-                  <Text ml={"1em"}>JavaScript</Text>
-                </Center>
-                {/* TypeScripte  */}
-                <Center justifyContent={"start"}>
-                  <FontAwesomeIcon
-                    icon={faCaretRight}
-                    style={{ color: theme.green }}
-                    size="xs"
-                  />
-                  <Text ml={"1em"}>TypeScripte</Text>
-                </Center>
-                {/* HTML/CSS  */}
-                <Center justifyContent={"start"}>
-                  <FontAwesomeIcon
-                    icon={faCaretRight}
-                    style={{ color: theme.green }}
-                    size="xs"
-                  />
-                  <Text ml={"1em"}>HTML/CSS</Text>
-                </Center>
-                {/* MySql  */}
-                <Center justifyContent={"start"}>
-                  <FontAwesomeIcon
-                    icon={faCaretRight}
-                    style={{ color: theme.green }}
-                    size="xs"
-                  />
-                  <Text ml={"1em"}>MySql</Text>
-                </Center>
+                {Languages.map((item) => (
+                  <LanguagesFrameworks key={item.id}>
+                    {item}
+                  </LanguagesFrameworks>
+                ))}
               </Box>
             </Flex>
           </Box>

@@ -25,12 +25,63 @@ const navItems = [
   },
 ];
 
+const Languages = [
+  // {
+  //   id: 1,
+  //   name: "HTML",
+  //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg",
+  // },
+  // {
+  //   id: 2,
+  //   name: "CSS",
+  //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
+  // },
+  {
+    id: 3,
+    name: "JS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
+  },
+  {
+    id: 4,
+    name: "TypeScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
+  },
+  {
+    id: 5,
+    name: "Dart",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-plain.svg",
+  }
+];
+
+const FrameWorks = [
+  {
+    id: 1,
+    name: "React",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    id: 2,
+    name: "Next.js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  },
+  {
+    id: 3,
+    name: "Flutter",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg",
+  },
+  {
+    id: 4,
+    name: "NestJS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+  }
+]
+
 const ExperienceListe = [
   {
     id: 1,
     Enterprise: "SOGEL AFRIK",
     position: "Dévellopeur FullStack",
-    date: "AVRIL 2023 - maintenant",
+    date: "AVRIL 2023 - JUIN 2023",
     works: [
       {
         id: 1,
@@ -46,6 +97,30 @@ const ExperienceListe = [
         id: 3,
         description:
           "Concevoir les bases de données comme MySQL pour les applications",
+      },
+    ],
+    link: "#",
+  },
+  {
+    id: 2,
+    Enterprise: "BILIIV",
+    position: "Dévellopeur Web et Mobile FullStack",
+    date: "JUIN 2023 - maintenant",
+    works: [
+      {
+        id: 1,
+        description:
+          "Concevoir des interfaces de qualité pour des applications avec Flutter",
+      },
+      {
+        id: 3,
+        description:
+          "Concevoir des API pour le backend des applications avec Nest.js",
+      },
+      {
+        id: 2,
+        description:
+          "Conception d'une application mobile de portefeuille de cryptomonnaies.",
       },
     ],
     link: "#",
@@ -124,7 +199,23 @@ const OtherWorksList = [
     description: "API sur le thème des Pokémon.",
     langagues: ["NODE.JS", "EXPRESSE", "JAVASCRIPTE"],
   },
+  {
+    id: 5,
+    externalLink: "",
+    githubLink: "https://github.com/henoceli3/eko_wallet",
+    title: "Eko Wallet",
+    description: "Portefeuille de crypto-monnaies.",
+    langagues: ["FLUTTER", "NODE.JS", "NEST.JS", "MYSQL"],
+  },
 ];
 let OtheProjectLength = OtherWorksList.length;
 
-export { navItems, ExperienceListe, FlagshipProject, OtherWorksList, OtheProjectLength };
+export {
+  navItems,
+  Languages,
+  FrameWorks,
+  ExperienceListe,
+  FlagshipProject,
+  OtherWorksList,
+  OtheProjectLength,
+};

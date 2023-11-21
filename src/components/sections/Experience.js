@@ -2,9 +2,7 @@ import theme from "@/styles/root";
 import {
   Box,
   Center,
-  Tab,
   TabList,
-  TabPanel,
   TabPanels,
   Tabs,
 } from "@chakra-ui/react";
