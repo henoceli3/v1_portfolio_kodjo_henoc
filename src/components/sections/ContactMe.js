@@ -11,7 +11,13 @@ import React from "react";
 const ContactMe = () => {
   return (
     <>
-      <Center w={"100%"} h={"auto"} flexDirection={"column"} id="contact" mt={"5em"}>
+      <Center
+        w={"100%"}
+        h={"auto"}
+        flexDirection={"column"}
+        id="contact"
+        mt={"5em"}
+      >
         <Text fontFamily={theme.fontSans} color={theme.green} fontSize={".8em"}>
           04.Et après ?
         </Text>
@@ -28,9 +34,7 @@ const ContactMe = () => {
           w={{ base: "100%", xl: "70%" }}
           fontSize={".8em"}
         >
-          {
-            "Je suis actuellement à la recherche d'un stage de fin de cycle BAC+3"
-          }
+          {"Ouvert à toute question, n'hésitez pas à me contacter !"}
         </Text>
 
         <Link
