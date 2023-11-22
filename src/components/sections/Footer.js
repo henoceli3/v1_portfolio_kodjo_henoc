@@ -38,7 +38,7 @@ const Footer = () => {
           isExternal
           textAlign={"center"}
         >
-          {"Remerciment a Bryttany Chiang pour l'inspiration du design 🤝"}
+          {"Remerciements à Bryttany Chiang pour l'inspiration du design. 🤝"}
         </Link>
 
         {isLargerThan1280 ? null : (

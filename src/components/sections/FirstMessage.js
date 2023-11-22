@@ -28,7 +28,7 @@ const FirstMessage = () => {
             Kodjo Henoc.
           </Heading>
           <Heading color={theme.lightSlate} textTransform={"capitalize"}>
-            développeur web.
+            développeur web et mobile.
           </Heading>
           <Text
             color={theme.darkSlate}
@@ -36,7 +36,7 @@ const FirstMessage = () => {
             w={{ base: "90%", xl: "50%" }}
           >
             {
-              "Passionné par le développement web et mobile, je suis un junior créatif et déterminé. Avec une solide base de compétences, je m'efforce d'apporter des solutions innovantes et intuitives à chaque projet. Prêt à relever de nouveaux défis et à contribuer au monde numérique en constante évolution."
+              "Passionné par le développement web et mobile, je suis un devellopeur junior créatif et déterminé. Avec une solide base de compétences, je m'efforce d'apporter des solutions innovantes et intuitives à chaque projet. Prêt à relever de nouveaux défis et à contribuer au monde numérique en constante évolution."
             }
           </Text>
           <Link
